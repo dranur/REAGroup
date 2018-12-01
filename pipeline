@@ -61,7 +61,7 @@ pipeline {
             steps {
                 sh '''
                 sudo sed -i -e '$i sudo docker exec sinatra bash -c "cd /simple-sinatra-app && /usr/bin/bundle exec /usr/local/bin/rackup -p80 --host 0.0.0.0 -D" \n' /etc/rc.local
-                sudo reboot
+ 
                 '''
             }
         } 

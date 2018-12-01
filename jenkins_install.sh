@@ -13,3 +13,6 @@ sudo apt-get update
 sudo apt-get install -y jenkins
 
 sudo sed -i -e '$i jenkins ALL=(ALL) NOPASSWD: ALL \n' /etc/sudoers
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+

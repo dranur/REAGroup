@@ -21,7 +21,7 @@ pipeline {
             }
         }
         
-        stage('Create Sinatra Docker') {
+        stage('Build Sinatra Docker') {
             steps {
                 sh '''
                     sudo docker run -d -p 80:80 --name sinatra --restart unless-stopped -t ubuntu:16.04

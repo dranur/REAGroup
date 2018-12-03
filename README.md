@@ -3,8 +3,8 @@ REAGroup Challenge Test Implementation version 1.0
 
 ### Prerequisites
 
-- AWS EC2 free tier - Ubuntu Server 16.04 LTS (HVM), SSD Volume Type 
-- Jenkins installation using Jenkins_install.sh
+- AWS EC2
+- Jenkins 
 
 ### Instructions to reviewer
 

@@ -47,7 +47,7 @@ https://github.com/dranur/REAGroup
 
 ![Jenkins](https://github.com/dranur/REAGroup/blob/master/jenkins-github.png)
 
-- Start the build run for the 'simple-sinatra-app' pipeline by clicking on 'Build now' button
+- Save settings and start the build run for the 'simple-sinatra-app' pipeline by clicking on 'Build now' button
 
 ### Some of the known issues that need to be address in future versions
 

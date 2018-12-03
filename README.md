@@ -41,7 +41,7 @@ In your web browser type 'Instance IP address':8080 to access Jenkins web portal
 
 - Start the build run for the 'simple-sinatra-app' pipeline by clicking on 'Build now' button
 
-### Some of the known issues that needs to be addressed in version 2.0
+### Some of the known issues that needs to be addressed in future versions
 
 - Jenkin pipeline build can run once successful. Any attempts to run a second or subsequent time  will fail if docker image is not removed beforehand.
 - The simple sinatra app in the container do not start up automatically after the container or host reboots.

@@ -15,6 +15,6 @@ sudo apt-get install -y jenkins
 
 sudo sed -i -e '$i jenkins ALL=(ALL) NOPASSWD: ALL \n' /etc/sudoers
 
-echo Jenkins Initial Admin password:
+echo "Jenkins Initial Admin password:"
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 

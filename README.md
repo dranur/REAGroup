@@ -30,7 +30,7 @@ git clone https://github.com/dranur/REAGroup
 ```
 sh jenkins_install.sh
 ```
-- The last line of installation output is the password to Jenkins web portal or retrieve it
+- The last line of installation output is the password to Jenkins web portal or retrieve it using
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```

@@ -1,5 +1,4 @@
-# REAGroup
-REAGroup Challenge Test Implementation version 1.0
+# REAGroup Challenge Test Implementation version 1.0
 
 ### Prerequisites
 

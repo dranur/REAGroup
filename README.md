@@ -34,7 +34,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 In your web browser type 'Instance IP address':8080 to access Jenkins web portal
 
 - Login using the default password retrieve from previous step
-- Setup Jenkins to download from GitHub.
+- Select or click on the recommended steps: Install suggested plugins -> continue as admin -> not now -> start using Jenkins -> Create a new job -> Simple Sinatra app -> pipeline
 
 - Start the build run for the simple sinatra app pipeline.
 

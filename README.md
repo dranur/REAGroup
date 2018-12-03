@@ -48,7 +48,7 @@ https://github.com/dranur/REAGroup
 ![Jenkins](https://github.com/dranur/REAGroup/blob/master/jenkins-github.png)
 
 - Save settings and start the build run for the 'simple-sinatra-app' pipeline by clicking on 'Build now' button
-- Once all pipeline stages completed successfully, open a new browser window to type in your InstanceIPaddress and you should see Hello World!
+- Once all pipeline stages completed successfully, open a new browser window, type in your InstanceIPaddress and you should see Hello World!
 
 ### Some of the known issues that need to be address in future versions
 

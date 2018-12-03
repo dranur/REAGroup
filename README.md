@@ -9,9 +9,9 @@
 
 In AWS Management console do the following:
 
-- Create an Ubuntu Server 16.04 LTS (HVM), SSD Volume Type Instance on AWS EC2.
-- Open port 80 and 8080 by editing the security group of the instance.
-- Setup private keys to SSH into the instance.
+- Create an Ubuntu Server 16.04 LTS (HVM), SSD Volume Type Instance on AWS EC2
+- Open port 80 and 8080 by editing the security group of the instance
+- Setup private keys to SSH into the instance
 
 
 In the EC2 instance SSH console, do the following:
@@ -43,8 +43,8 @@ In your web browser type 'Instance IP address':8080 to access Jenkins web portal
 
 ### Some of the known issues that needs to be addressed in future versions
 
-- Jenkin pipeline build can run once successful. Any attempts to run a second or subsequent time  will fail if docker image is not removed beforehand.
-- The simple sinatra app in the container do not start up automatically after the container or host reboots.
+- Jenkin pipeline build can run once successful. Any attempts to run a second or subsequent time  will fail if docker image is not removed beforehand
+- The simple sinatra app in the container do not start up automatically after the container or host reboots
 
 
 

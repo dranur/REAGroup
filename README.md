@@ -19,8 +19,9 @@ In the EC2 instance SSH console, do the following:
 
 1. Download scripts from GitHub:
 
+'''
 git clone https://github.com/dranur/REAGroup
-
+'''
 2. Start by installing Jenkins:
 
 sh jenkins_install.sh

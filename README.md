@@ -26,7 +26,7 @@ In the EC2 instance SSH console, do the following:
 ```
 git clone https://github.com/dranur/REAGroup
 ```
-- Start by installing Jenkins in the REAGRoup directory:
+- Start by installing Jenkins in the REAGroup directory:
 
 ```
 sh jenkins_install.sh

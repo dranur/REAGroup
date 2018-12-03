@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #This script will install Java which is required for Jenkins installation.  
 
 sudo apt-get update

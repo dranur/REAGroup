@@ -40,8 +40,7 @@ In your web browser type 'Instance IP address':8080 to access Jenkins web portal
 
 - Login using the default password retrieved from previous step
 - Select or click on these recommended steps: Install suggested plugins -> continue as admin -> not now -> start using Jenkins -> Create a new jobs -> name item as 'simple-sinatra-app' -> Pipeline
-- Configure Pipeline to download from Github in the 'Configure' page:
-- Repository URL
+- Configure Pipeline to download from Github in the 'Configure' page by selecting Pipeline script from SCM -> Git and copy the following URL into Repository URL:
 ```
 https://github.com/dranur/REAGroup
 ```

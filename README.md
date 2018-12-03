@@ -14,7 +14,7 @@ These scripts run on a AWS EC2 Ubuntu Server 16.04 instance which serves as a ho
 In AWS Management console do the following:
 
 - Create an Ubuntu Server 16.04 LTS (HVM), SSD Volume Type Instance on AWS EC2
-- Open port 80 and 8080 by editing the security group of the instance <- Important step!
+- Make sure you open port 80 and 8080 by editing the security group of the instance <- Important step!
 - Setup private keys to SSH into the instance using PuTTY
 - Login as user ubuntu@InstanceIPaddress
 

@@ -11,7 +11,7 @@ In AWS Management console do the following:
 
 - Create an Ubuntu Server 16.04 LTS (HVM), SSD Volume Type Instance on AWS EC2
 - Open port 80 and 8080 by editing the security group of the instance
-- Setup private keys to SSH into the instance
+- Setup private keys to SSH into the instance using PuTTY
 
 
 In the EC2 instance SSH console, do the following:

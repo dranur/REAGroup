@@ -53,5 +53,5 @@ https://github.com/dranur/REAGroup
 ### Some of the known issues that need to be address in future versions
 
 - Jenkin pipeline build can run once successful. Any attempts to run a second or subsequent times  will fail if docker image is not removed beforehand.
-- The simple sinatra app in the container do not start up automatically after the container or host reboots.
+- The simple sinatra app in the container may not start up automatically after the container or host reboots.
 

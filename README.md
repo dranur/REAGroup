@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- AWS EC2
+- AWS EC2 Ubuntu Server 16.04
 - Jenkins 
 
 ### Overview

@@ -1,4 +1,5 @@
 #!/bin/bash
+#This script will install Java which is required for Jenkins installation.  
 
 sudo apt-get update
 sudo apt-get install -y default-jdk
@@ -14,5 +15,6 @@ sudo apt-get install -y jenkins
 
 sudo sed -i -e '$i jenkins ALL=(ALL) NOPASSWD: ALL \n' /etc/sudoers
 
+echo Jenkins Initial Admin password:
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 

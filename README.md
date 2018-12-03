@@ -3,16 +3,16 @@ REAGroup Challenge Test Implementation version 1.0
 
 ### Prerequisites
 
-1. AWS EC2 free tier - Ubuntu Server 16.04 LTS (HVM), SSD Volume Type 
-2. Jenkins installation using Jenkins_install.sh
+- AWS EC2 free tier - Ubuntu Server 16.04 LTS (HVM), SSD Volume Type 
+- Jenkins installation using Jenkins_install.sh
 
 Instructions to reviewer:
 
 In AWS Management console do the following:
 
-1. Create an Ubuntu Server 16.04 LTS (HVM), SSD Volume Type Instance on AWS EC2.
-2. Open port 80 and 8080 by editing the security group of the instance.
-3. Setup private keys to SSH into the instance.
+- Create an Ubuntu Server 16.04 LTS (HVM), SSD Volume Type Instance on AWS EC2.
+- Open port 80 and 8080 by editing the security group of the instance.
+- Setup private keys to SSH into the instance.
 
 
 In the EC2 instance SSH console, do the following:

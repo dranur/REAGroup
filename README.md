@@ -5,6 +5,10 @@
 - AWS EC2
 - Jenkins 
 
+### Overview
+
+These scripts run on a AWS EC2 Ubuntu Server 16.04 instance which serves as a host to docker container running Simple Sinatra app. Jenkins is used as a 'configuration as code' tool to automate the process of building the docker container and securing the host machine.
+
 ### Instructions to reviewer
 
 In AWS Management console do the following:

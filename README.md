@@ -24,8 +24,9 @@ git clone https://github.com/dranur/REAGroup
 ```
 2. Start by installing Jenkins:
 
+```
 sh jenkins_install.sh
-
+```
 3. The last line of installation output is the password to Jenkins web portal.
 
 In your web browser type 'Instance IP address':8080 to access Jenkins web portal

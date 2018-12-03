@@ -7,9 +7,9 @@
 
 ### Overview
 
-These scripts run on a AWS EC2 Ubuntu Server 16.04 instance which serves as a host to Docker container running Simple Sinatra app. Jenkins is used as a 'configuration-as-code' tool to automate the process of building the Docker container and securing the host machine.
+These scripts run on an AWS EC2 Ubuntu Server 16.04 instance which serves as a host to Docker container running Simple Sinatra app. Jenkins is used as a 'configuration-as-code' tool to automate the process of building the Docker container and securing the host machine.
 
-### Instructions to reviewer
+### Instructions to the reviewer
 
 In AWS Management console do the following:
 
@@ -38,7 +38,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 In your web browser type 'Instance IP address':8080 to access Jenkins web portal:
 
-- Login using the default password retrieved from previous step
+- Log in using the default password retrieved from the previous step
 - Select or click on these recommended steps: Install suggested plugins -> continue as admin -> not now -> start using Jenkins -> Create a new jobs -> name item as 'simple-sinatra-app' -> Pipeline
 - Configure Pipeline to download from Github in the 'Configure' page by selecting 'Pipeline script from SCM' -> 'Git' and copy the following URL into Repository URL:
 ```
@@ -50,8 +50,8 @@ https://github.com/dranur/REAGroup
 - Save settings and start the build run for the 'simple-sinatra-app' pipeline by clicking on 'Build now' button
 - Once all pipeline stages completed successfully, open a new browser window, type in your InstanceIPaddress and you should see Hello World!
 
-### Some of the known issues that need to be address in future versions
+### Some of the known issues that need to be addressed in future versions
 
-- Jenkin pipeline build can run once successful. Any attempts to run a second or subsequent times  will fail if docker image is not removed beforehand.
-- The simple sinatra app in the container may not start up automatically after the container or host reboots.
+- Jenkin pipeline build can run once successful. Any attempts to run second or subsequent times  will fail if docker image is not removed beforehand.
+- The simple Sinatra app in the container may not start up automatically after the container or host reboots.
 

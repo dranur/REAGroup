@@ -43,7 +43,7 @@ In your web browser type 'Instance IP address':8080 to access Jenkins web portal
 - Configure Pipeline to download from Github in the 'Configure' page:
 - Repository URL
 ```
-https://github.com/dranur/simple-sinatra-app
+https://github.com/dranur/REAGroup
 ```
 
 ![Jenkins](https://github.com/dranur/REAGroup/blob/master/jenkins-github.png)

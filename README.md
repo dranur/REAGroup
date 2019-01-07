@@ -32,7 +32,7 @@ git clone https://github.com/dranur/REAGroup
 sh jenkins_install.sh
 ```
 
-UPDATE - All the steps above are now automated as Infrastucture-as-code using AWS CloudFormation. Please upload 'AWS-CloudFormation-Template' file to your AWS management console in CloudFormation service.
+UPDATE - All the steps above are now automated as 'infrastucture-as-code' using AWS CloudFormation. Please upload 'AWS-CloudFormation-Template' file to your AWS management console in CloudFormation service.
 
 - The last line of installation output is the password to Jenkins web portal or retrieve it using
 ```

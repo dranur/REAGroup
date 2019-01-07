@@ -1,0 +1,54 @@
+{
+    "Resources": {
+        "Ec2Instance": {
+	    "Type": "AWS::EC2::Instance",
+                       "Properties": {
+                "SecurityGroups": [
+                    {
+                        "Ref": "InstanceSecurityGroup"
+                    },
+                    "default"
+                ],
+             "KeyName": "REAGroup",
+             "ImageId": "ami-0f9cf087c1f27d9b1",
+		 "InstanceType": "t2.micro",
+	       "UserData" : {"Fn::Base64" : {"Fn::Join" : ["", [
+              "#!/bin/bash\n",
+              "# Install Jenkins",
+              "cd / \n",
+              "sudo git clone https://github.com/dranur/REAGroup \n",
+              "sudo sh /REAGroup/jenkins_install.sh \n"
+            ] ] } }
+
+            }
+        },
+        "InstanceSecurityGroup": {
+            "Type": "AWS::EC2::SecurityGroup",
+            "Properties": {
+                "GroupDescription": "Enable SSH, HTTP, port 8080",
+                "SecurityGroupIngress": [
+                    {
+                        "IpProtocol": "tcp",
+                        "FromPort": "22",
+                        "ToPort": "22",
+                        "CidrIp": "0.0.0.0/0"
+                    },
+		      {
+                        "CidrIp": "0.0.0.0/0",
+                        "FromPort": "80",
+                        "IpProtocol": "tcp",
+                        "ToPort": "80"
+                      },
+                      {
+                        "CidrIp": "0.0.0.0/0",
+                        "FromPort": "8080",
+                        "IpProtocol": "tcp",
+                        "ToPort": "8080"
+                      }
+
+                ]
+            }
+        }
+    }
+}
+
